@@ -10,4 +10,6 @@ add_executable(Projeto_Final_de_Estrutura_de_Dados
         include/cliente.h
         src/chamados.cpp
         src/clientes.cpp
-        src/main.cpp)
+        src/main.cpp
+        include/chamado.hpp
+        include/chamado.hpp)
