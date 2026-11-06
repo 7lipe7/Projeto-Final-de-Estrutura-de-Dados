@@ -11,4 +11,14 @@ struct Cliente {
     std::string empresa;
 };
 
+struct NoCliente {
+    Cliente dados;
+    NoCliente* proximo;
+};
+
+int gerarIdCliente();
+
+void cadastrarCliente(NoCliente*& inicio);
+void consultarCliente(NoCliente* inicio, int id);
+
 #endif
