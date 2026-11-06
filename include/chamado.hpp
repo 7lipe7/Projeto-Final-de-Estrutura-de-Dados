@@ -1,19 +1,25 @@
 #ifndef CHAMADO_HPP
 #define CHAMADO_HPP
-
+#include "cliente.hpp"
 #include <string>
-
-using namespace std;
 
 struct Chamado {
     int id;
     int clienteId;
-    string dataAbertura;
-    string descricao;
-    string categoria;
-    string prioridade;
-    string tecnicoResponsavel;
-    string situacao;
+    std::string dataAbertura;
+    std::string descricao;
+    std::string categoria;
+    std::string prioridade;
+    std::string tecnicoResponsavel;
+    std::string situacao;
 };
+
+struct NoChamado {
+    Chamado dados;
+    NoChamado* proximo;
+    
+};
+
 int gerarIdChamado();
+void abrirChamado(NoCliente* inicioClientes, NoChamado*& inicioChamados);
 #endif

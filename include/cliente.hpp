@@ -20,5 +20,6 @@ int gerarIdCliente();
 
 void cadastrarCliente(NoCliente*& inicio);
 void consultarCliente(NoCliente* inicio, int id);
+void liberarClientes(NoCliente*& inicio);
 
 #endif
