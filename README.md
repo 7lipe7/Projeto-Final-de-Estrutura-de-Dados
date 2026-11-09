@@ -20,7 +20,6 @@
 5. **Identificadores únicos**
    - `gerarIdCliente()` e `gerarIdChamado()` usam contadores estáticos starting em 1
 
-### ❌ Pendente:
 
 6. **Desenvolver diagrama de classes ou modelo de domínio**
    - Não existe diagrama ou modelo formal no projeto
