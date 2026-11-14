@@ -12,6 +12,8 @@ add_executable(Projeto_Final_de_Estrutura_de_Dados
         src/clientes.cpp
         src/main.cpp
         include/chamado.hpp
-        include/chamado.hpp 
+        include/chamado.hpp
+        include/lista.hpp
+        src/lista.cpp
 
 )
